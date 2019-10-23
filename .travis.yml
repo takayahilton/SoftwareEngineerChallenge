@@ -1,0 +1,10 @@
+language: scala
+
+script: >
+  cd Coding_task &&
+  sbt test &&
+  cd "$TRAVIS_BUILD_DIR"
+
+jdk:
+  - openjdk8
+
